@@ -13,8 +13,8 @@ I modified the dashboard made by [Brock Peterson](https://developer.vmware.com/s
 3. Import Custom Groups at `Environment` / `Custom Groups` / `... ` / `Import`
 ![Import Custome Groups](https://github.com/AngrySysOps/vrops_showback_cost_VM/blob/main/images/customgroups.png)
 4. Click `Browse...` then select the file named [CustomGroups.json](https://github.com/AngrySysOps/vrops_showback_cost_VM/blob/main/CustomGroups.json)
-5. You can change groups membership and requiments. For the basic metrics it is set up as follow: 
-`Small VM ` - CPU less then 1 RAM < 4GB
+5. You can change groups' membership and requirements. The basic metrics it is set up as follows: 
+`Small VM ` - CPU less than 1 RAM < 4GB
 `Medium` - CPU = 2, RAM 8 GB
 `Large` - CPU = 4, RAM 16 GB
 `X-Large` - CPU >= 5 , RAM > 16 GB
