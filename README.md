@@ -10,7 +10,7 @@ I modified the dashboard made by [Brock Peterson](https://developer.vmware.com/s
 1. Import the super metric at `Configure` / `Super Metrics` / `Import Super Metric` 
 ![Import Super Metric](https://github.com/AngrySysOps/vrops_showback_cost_VM/blob/main/images/supermetrics.png)
 2. Click `Browse...` then select the file named [Supermetrics.json](https://github.com/AngrySysOps/vrops_showback_cost_VM/blob/main/supermetric.json)
-3. Import Custom Groups at `Environment` / `Custom Groups / `... ` / `Import`
+3. Import Custom Groups at `Environment` / `Custom Groups` / `... ` / `Import`
 ![Import Custome Groups](https://github.com/AngrySysOps/vrops_showback_cost_VM/blob/main/images/customgroups.png)
 4. Click `Browse...` then select the file named [CustomGroups.json](https://github.com/AngrySysOps/vrops_showback_cost_VM/blob/main/CustomGroups.json)
 5. You can change groups membership and requiments. For the basic metrics it is set up as follow: 
