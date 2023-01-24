@@ -25,7 +25,7 @@ I modified the dashboard made by [Brock Peterson](https://developer.vmware.com/s
 8. Import the dashboard at `Environment` / `Dashboards` / `Manage` / `...` / `Import`
 ![Import Dashboard](https://github.com/AngrySysOps/vrops_showback_cost_VM/blob/main/images/dashboard1.png)
 9. Click `Browse...` then select the file named [Dashboard.zip](https://github.com/AngrySysOps/vrops_showback_cost_VM/blob/main/Dashboard.zip)
-10 The dashboard should now be available in in the dashboard list
+10 The dashboard should now be available in the dashboard list
 ![Find your dashboard](https://github.com/AngrySysOps/vrops_showback_cost_VM/blob/main/images/dashboard2.png)
 
 ## IMPORTANT: The super metrics won't show cost until the next cost calculation run.  To manually run cost calculations to validate the super metrics, `Run` at `Administration` / `Cost Calculation`
