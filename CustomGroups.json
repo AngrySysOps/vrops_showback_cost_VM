@@ -1,0 +1,139 @@
+{
+   "customGroups": [
+      {
+         "resourceKind": "Department",
+         "membershipDefinition": {"ruleGroups": [{
+            "resourceKind": "VirtualMachine",
+            "adapterKind": "VMWARE",
+            "rules": [{
+               "ruleOperator": "LESS_THAN",
+               "ruleValue": 2,
+               "ruleType": "NumericMetricPropertyRule",
+               "ruleMetricKey": "config|hardware|numCpu",
+               "isProperty": true
+            }]
+         }]},
+         "adapterKind": "Container",
+         "autoResolveMembership": true,
+         "name": "Small VM",
+         "description": "CPU\" = 1;\n    \"Memory\" = 4 GB;\n    \"Storage\" = 40 GB ;",
+         "started": true,
+         "policy": "4de09f1a-a129-430a-88c2-98cde4008393"
+      },
+      {
+         "resourceKind": "Department",
+         "membershipDefinition": {"ruleGroups": [{
+            "resourceKind": "VirtualMachine",
+            "adapterKind": "VMWARE",
+            "rules": [
+               {
+                  "ruleOperator": "LESS_THAN",
+                  "ruleValue": 4,
+                  "ruleType": "NumericMetricPropertyRule",
+                  "ruleMetricKey": "config|hardware|numCpu",
+                  "isProperty": true
+               },
+               {
+                  "ruleOperator": "GREATER_THAN",
+                  "ruleValue": 2,
+                  "ruleType": "NumericMetricPropertyRule",
+                  "ruleMetricKey": "config|hardware|numCpu",
+                  "isProperty": true
+               }
+            ]
+         }]},
+         "adapterKind": "Container",
+         "autoResolveMembership": true,
+         "name": "Medium VM",
+         "description": "  \"CPU\" = 2;\n    \"Memory\" = 8;\n    \"Storage\" = 80;",
+         "started": true,
+         "policy": "4de09f1a-a129-430a-88c2-98cde4008393"
+      },
+      {
+         "resourceKind": "Department",
+         "membershipDefinition": {"ruleGroups": [{
+            "resourceKind": "VirtualMachine",
+            "adapterKind": "VMWARE",
+            "rules": [{
+               "ruleOperator": "GREATER_THAN",
+               "ruleValue": 8,
+               "ruleType": "NumericMetricPropertyRule",
+               "ruleMetricKey": "config|hardware|numCpu",
+               "isProperty": true
+            }]
+         }]},
+         "adapterKind": "Container",
+         "autoResolveMembership": true,
+         "name": "XLarge VM",
+         "description": "",
+         "started": true,
+         "policy": "4de09f1a-a129-430a-88c2-98cde4008393"
+      },
+      {
+         "resourceKind": "Department",
+         "membershipDefinition": {"ruleGroups": [{
+            "resourceKind": "VirtualMachine",
+            "adapterKind": "VMWARE",
+            "rules": [
+               {
+                  "ruleOperator": "LESS_THAN",
+                  "ruleValue": 8,
+                  "ruleType": "NumericMetricPropertyRule",
+                  "ruleMetricKey": "config|hardware|numCpu",
+                  "isProperty": true
+               },
+               {
+                  "ruleOperator": "GREATER_THAN",
+                  "ruleValue": 4,
+                  "ruleType": "NumericMetricPropertyRule",
+                  "ruleMetricKey": "config|hardware|numCpu",
+                  "isProperty": true
+               }
+            ]
+         }]},
+         "adapterKind": "Container",
+         "autoResolveMembership": true,
+         "name": "Large VM",
+         "description": "\"CPU\" = 4;\n    \"Memory\" = 16;\n    \"Storage\" = 120;",
+         "started": true,
+         "policy": "4de09f1a-a129-430a-88c2-98cde4008393"
+      }
+   ],
+   "customGroupTypes": [{
+      "resourceKind": "Department",
+      "localization": [
+         {
+            "resourceKindName": "Abteilung",
+            "locale": "de"
+         },
+         {
+            "resourceKindName": "部門",
+            "locale": "zh_TW"
+         },
+         {
+            "resourceKindName": "부서",
+            "locale": "ko"
+         },
+         {
+            "resourceKindName": "部門",
+            "locale": "ja"
+         },
+         {
+            "resourceKindName": "Department",
+            "locale": "en"
+         },
+         {
+            "resourceKindName": "部门",
+            "locale": "zh_CN"
+         },
+         {
+            "resourceKindName": "Département",
+            "locale": "fr"
+         },
+         {
+            "resourceKindName": "Departamento",
+            "locale": "es"
+         }
+      ]
+   }]
+}
