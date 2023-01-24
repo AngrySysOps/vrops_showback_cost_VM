@@ -1,0 +1,38 @@
+{
+   "eb78947a-a3f2-4ffb-a45e-0c050f4e3063": {
+      "resourceKinds": [{
+         "resourceKindKey": "Department",
+         "adapterKindKey": "Container"
+      }],
+      "modificationTime": 1674230498176,
+      "name": "AvarageWeeklyVMcost",
+      "formula": "avg(${adaptertype=VMWARE, objecttype=VirtualMachine, attribute=cost|effectiveDailyCost, depth=8})*7",
+      "description": "",
+      "unitId": "",
+      "modifiedBy": "872c01c5-9d18-4803-bf92-b6f931d69e5a"
+   },
+   "71d7f087-f11c-4967-a63a-406a229acaf9": {
+      "resourceKinds": [{
+         "resourceKindKey": "Department",
+         "adapterKindKey": "Container"
+      }],
+      "modificationTime": 1674237366011,
+      "name": "AvarangeMonthlyVMCost",
+      "formula": "avg(${adaptertype=VMWARE, objecttype=VirtualMachine, attribute=cost|effectiveDailyCost, depth=8})*31",
+      "description": "",
+      "unitId": "",
+      "modifiedBy": "872c01c5-9d18-4803-bf92-b6f931d69e5a"
+   },
+   "e44eb3ba-bc10-419a-80f0-dafd2a7d8b71": {
+      "resourceKinds": [{
+         "resourceKindKey": "Department",
+         "adapterKindKey": "Container"
+      }],
+      "modificationTime": 1674236215424,
+      "name": "AvarangeDailyVMCost",
+      "formula": "avg(${adaptertype=VMWARE, objecttype=VirtualMachine, attribute=cost|effectiveDailyCost, depth=8})",
+      "description": "",
+      "unitId": "",
+      "modifiedBy": "872c01c5-9d18-4803-bf92-b6f931d69e5a"
+   }
+}
