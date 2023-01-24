@@ -36,7 +36,7 @@ I modified the dashboard made by [Brock Peterson](https://developer.vmware.com/s
 NOTE: Additional objects can be added to the super metrics and to each widget and view in the dashboard.
 
 
-IF you come a cross any issues, please open [ticket](https://github.com/AngrySysOps/vrops_showback_cost_VM/issues) 
+If you come across any issues, please open a [ticket](https://github.com/AngrySysOps/vrops_showback_cost_VM/issues) 
 
 Thank you! 
 
